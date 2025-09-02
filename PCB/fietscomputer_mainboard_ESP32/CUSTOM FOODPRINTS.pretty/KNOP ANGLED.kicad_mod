@@ -1,0 +1,128 @@
+(footprint "KNOP ANGLED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.335 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe71206e-77a9-478e-a401-c41b76da9ea5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KNOP ANGLED"
+		(at -2.335 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2903e7c2-5efc-481a-b467-17f2f94e360c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e8fe331-66e3-48ff-a9d1-0cf341bbdd3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d2e3c19-0a8c-4cd9-b31c-99223d46c8f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.23 1.52)
+		(end -3.68 5.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6f89293c-56b8-4c9c-8686-2873bb7efbe4")
+	)
+	(fp_rect
+		(start -3.69 -0.05)
+		(end 0 7.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "109a949b-7efa-4876-b298-e4815074de3c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.335 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35f0d1ca-1360-4b1d-835e-bf6f4462b318")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.08 1.31)
+		(size 2.54 1.27)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "5ea69ef4-15bc-479e-adcc-b5d51f388d09")
+	)
+	(pad "2" thru_hole roundrect
+		(at -1.08 5.8)
+		(size 2.54 1.27)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "e5a241c6-78b8-4ff9-9d12-151a0ec35aa6")
+	)
+	(pad "3" thru_hole circle
+		(at 1.41 0.5)
+		(size 1.5 1.5)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c9fedf2c-dda6-4a6e-a65c-a4c7dcd9536b")
+	)
+	(pad "4" thru_hole circle
+		(at 1.41 6.61)
+		(size 1.5 1.5)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea0d6f2d-686f-42f3-be27-47338539e6db")
+	)
+	(embedded_fonts no)
+)

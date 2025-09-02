@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CUSTOM FOODPRINTS")(type "KiCad")(uri "${KIPRJMOD}/CUSTOM FOODPRINTS.pretty")(options "")(descr ""))
+)
