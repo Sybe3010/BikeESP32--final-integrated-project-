@@ -1,0 +1,2 @@
+## Code
+The code in this project is split up in 2 folders. The main folder with the programm. But also the tests folder, this folder contains test on many different subjects. These are made to get familiar with some library's.
