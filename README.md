@@ -1,6 +1,6 @@
 ## BIKE-ESP32
 BikeEsp32 is a final project made by Sybe Van den Bergh.
-Sybe is 16 year old student Informatica and Communication Science.
+Sybe is 16 year old student Informatica and Datacommunication Science.
 Since this project has just started I will not accept any pull requests, I can accept this kind of requests as of July 2026 when I graduate.
 
 
