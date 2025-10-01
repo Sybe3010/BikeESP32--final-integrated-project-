@@ -8,3 +8,4 @@ Since this project has just started I will not accept any pull requests, I can a
 
 ## The Project
 This project features a ESP32-S3 devkit equiped with 16MB ROM and 8MB PSRAM, to connect al sensor and actuators there is a PCB. The board is programmed using VSCode on PlatformIO. The chosen platform is Arduino meanly because that is what we use at school, but also because of the great support.
+In the future I would like to expand the project and make a custom PCB.
