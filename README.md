@@ -16,3 +16,4 @@ In the future I would like to expand the project and make a custom PCB.
 - [ ] Making home/settings screens
 - [ ] Making activities
 - [ ] Reading BLE sensors
+- [ ] Documenting
