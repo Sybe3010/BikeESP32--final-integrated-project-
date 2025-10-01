@@ -11,7 +11,7 @@ This project features a ESP32-S3 devkit equiped with 16MB ROM and 8MB PSRAM, to 
 In the future I would like to expand the project and make a custom PCB.
 
 ## The Progress
-- [ ] Searching information
+- [X] Searching information
 - [ ] Testing Maps
 - [ ] Making home/settings screens
 - [ ] Making activities
