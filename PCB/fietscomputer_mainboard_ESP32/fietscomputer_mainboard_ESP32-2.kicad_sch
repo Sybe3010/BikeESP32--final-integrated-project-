@@ -13,251 +13,6 @@
 		(comment 3 "Sybe Van den Bergh")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -2852,18 +2607,6 @@
 		)
 		(uuid "60f3955d-0206-4f1a-ac02-ecb4525995c8")
 	)
-	(text "SCREEN\n"
-		(exclude_from_sim no)
-		(at 239.014 151.384 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "c72148ef-658b-40e1-943c-fc690589e116")
-	)
 	(text "POWER"
 		(exclude_from_sim no)
 		(at 48.514 18.542 0)
@@ -3088,16 +2831,6 @@
 		)
 		(uuid "0f1ffac5-4610-4a1f-9738-381c8a420bd9")
 	)
-	(wire
-		(pts
-			(xy 127 43.18) (xy 125.73 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10636f80-d338-40ac-a539-d94acba929a8")
-	)
 	(polyline
 		(pts
 			(xy 190.5 78.74) (xy 116.84 78.74)
@@ -3117,16 +2850,6 @@
 			(type default)
 		)
 		(uuid "124d57c3-9d7e-4c31-9bd3-313d3552f861")
-	)
-	(wire
-		(pts
-			(xy 120.65 53.34) (xy 125.73 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1345f982-7b16-442b-9202-129e6530eb9f")
 	)
 	(wire
 		(pts
@@ -3297,16 +3020,6 @@
 			(type default)
 		)
 		(uuid "3f263c29-9445-46ad-b385-c79a0dba2591")
-	)
-	(wire
-		(pts
-			(xy 125.73 53.34) (xy 125.73 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "411a21dd-38ea-427f-b7f2-a7e1c2dd3624")
 	)
 	(wire
 		(pts
@@ -3600,16 +3313,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 43.18) (xy 127 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962399e5-934f-460e-b696-f6a9791b7a89")
-	)
-	(wire
-		(pts
 			(xy 60.96 102.87) (xy 63.5 102.87)
 		)
 		(stroke
@@ -3727,16 +3430,6 @@
 			(type default)
 		)
 		(uuid "bc5cc2c7-3d4e-4edb-a2a2-1962fb1b17b4")
-	)
-	(wire
-		(pts
-			(xy 120.65 45.72) (xy 127 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcda0391-2f19-46c3-a152-78e8916a7d3d")
 	)
 	(wire
 		(pts
@@ -4118,28 +3811,6 @@
 			)
 		)
 	)
-	(global_label "RX_GPS"
-		(shape input)
-		(at 120.65 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4d927a1f-5c57-4d94-acf7-f2ecbf1af0fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.8318 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ZOOM+_BUTTON"
 		(shape input)
 		(at 162.56 142.24 0)
@@ -4351,28 +4022,6 @@
 		(uuid "9c0744b1-7208-4d52-9c40-fe3c54828b39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 132.1018 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TX_GPS"
-		(shape input)
-		(at 120.65 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a144f3e5-0bff-4810-adc4-bacfb56923c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.5294 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,72 +6083,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 125.73 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a6ab846-fae9-4a3d-a4c7-770b48951b4d")
-		(property "Reference" "#PWR015"
-			(at 125.73 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19f770ed-e58b-4b48-be2b-55bdfd60f404")
-		)
-		(instances
-			(project "fietscomputer_mainboard_ESP32"
-				(path "/43bdb2f2-24f7-4e7e-b859-a2b4997d56c8"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 176.53 124.46 90)
 		(unit 1)
@@ -6717,80 +6300,6 @@
 			(project "fietscomputer_mainboard_ESP32"
 				(path "/43bdb2f2-24f7-4e7e-b859-a2b4997d56c8"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 115.57 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b53d43d9-a113-4fe2-8112-6ece42873f84")
-		(property "Reference" "J2"
-			(at 116.205 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 116.205 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 115.57 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 115.57 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ff6d35ac-98c9-4962-b219-26e717b44249")
-		)
-		(pin "1"
-			(uuid "5a8d65bf-14b5-425d-87fe-8d364280015b")
-		)
-		(pin "2"
-			(uuid "5fe8a674-c37d-49ef-96f8-171ee99f27d1")
-		)
-		(pin "4"
-			(uuid "f712a871-060a-4286-a860-0a2df8fc7019")
-		)
-		(instances
-			(project ""
-				(path "/43bdb2f2-24f7-4e7e-b859-a2b4997d56c8"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7266,72 +6775,6 @@
 			(project "fietscomputer_mainboard_ESP32"
 				(path "/43bdb2f2-24f7-4e7e-b859-a2b4997d56c8"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 125.73 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d79161af-6344-4640-b9c0-8d701d286c0f")
-		(property "Reference" "#PWR014"
-			(at 125.73 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 125.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 125.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c32ce83-e35b-4699-88c1-de0bf12f2e73")
-		)
-		(instances
-			(project "fietscomputer_mainboard_ESP32"
-				(path "/43bdb2f2-24f7-4e7e-b859-a2b4997d56c8"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
